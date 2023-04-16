@@ -1,0 +1,54 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.movies{
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.inputs label{
+    color: rgb(168, 166, 166);
+    text-transform: uppercase;
+    
+}
+
+#genre{
+    width: 200px;
+    padding: 8px;
+}
+#year{
+    width: 200px;
+    padding: 8px;
+}
+#language{
+    width: 200px;
+    padding: 8px;
+}
+#rating {
+    width: 1090px;
+    padding: 8px;
+    margin:20px;
+    position: relative;
+    left: 8px;
+
+}
+#ratinglabel{
+    position: relative;
+   top: 18px;
+    left: 30px;
+    
+}
+#movie-container{
+    background-color: aqua;
+    overflow: scroll;
+    display: inline-block;
+    height: 200px;
+    width: 1090px;
+    position: relative;
+    margin: auto 20px;
+    left: 120px;
+}
